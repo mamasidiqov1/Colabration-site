@@ -1,16 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>NIKE Shoes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Raleway:wght@100;200;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Nike Shoes</title>
 </head>
+
 <body>
     <header>
+
         <div class="container">
-            
+            <nav class="nav">
+                <a class="nav__img" href="#">
+                    <img src="./img/Vector.svg" alt="">
+                </a>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Product</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Review</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Shop Now</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="text">
+                <div class="text__box">
+                    <h3 class="text__h3">Bring power to your steps.</h3>
+                    <h2 class="text__h2">Walk the line.</h2>
+                    <p class="text__p">Now that you have a ready strategy to move forward,<br> it’s time to come up with
+                        some ideas.</p>
+
+                    <p class="text__n">Now that you have a <span>ready strategy </span> to move forward.</p>
+                    <a class="text__price" href="#">
+                        Price : $125 <span> $169</span>
+                    </a>
+                    <br>
+                    <button class="text__btn">Shop Now</button>
+                    <button class="text__btn2">Learn More</button>
+                    <div class="text__sell" style="display: flex;gap: 70px;">
+                        <h4 class="text__h4">70k <span>CUSTOMERS</span>
+                        </h4>
+                        <br>
+                        <h4 class="text__h4__2">17k
+                            <span>REVIEW</span>
+
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="text__shoes">
+                <img src="./img/shies.png" alt="">
+                <a class="text__img" href="#">
+                    <img src="./img/shoes.svg" alt="">
+                </a>
+            </div>
         </div>
     </header>
+    <section>
+        <div class="container">
+            <div class="product">
+                <h2 class="product__h2">Our Latest Product</h2>
+                <br>
+                <p class="product__p">Now that you have a ready strategy to move forward, it’s time to <br> come up with
+                    some ideas.</p>
+                    <div class="product__cards">
+                        <ul class="product__list" style="display: flex;">
+                            <li class="product__item">
+                                
+                                    
+                               
+                                <a class="product__text" href="#">
+                                    <img class="product__im" src="./img/ob.jpg" alt="">
+                                    <h4 class="product__h4">Aliquam lobortis</h4>
+                                    <br>
+                                    <img  class="product__img" src="./img/star.svg" alt="">
+                                    <br>
+                                    <i class="product__i">$75.00 – $85.00</i>
+                                    <br>
+                                    <button class="product__btn">Shop Now</button>
+                                </a>
+                            </li>
+                            <li class="product__item">
+                                
+                                <a class="product__text" href="#">
+                                    <img class="product__im" src="./img/ob2.jpg" alt="">
+                                    <h4 class="product__h4">FUSCE ALIQUAM</h4>
+                                    <br>
+                                    <img class="product__img" src="./img/star.svg" alt="">
+                                    <br>
+                                    <i class="product__i">$65.00 – $75.00</i>
+                                    <br>
+                                    <button class="product__btn">Shop Now</button>
+                                </a>
+                            </li>
+                            <li class="product__item">
+                               
+                            
+                                <a class="product__text" href="#">
+                                    <img class="product__im" src="./img/ob3.jpg" alt="">
+                                    <h4 class="product__h4">AIR SUPERIORITY</h4>
+                                    <br>
+                                    <img class="product__img" src="./img/star.svg" alt="">
+                                    <br>
+                                    <i class="product__i">$35.00 – $45.00</i>
+                                    <br>
+                                    <button class="product__btn">Shop Now</button>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="story">
+                <div class="story__box">
+                    <h2 class="story__h2">Telling your story <br> with videos</h2>
+                    <p class="story__p">Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</p>
+                </div>
+                <a class="story__img" href="#">
+                    <img src="./img/youtube.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
 </html>
